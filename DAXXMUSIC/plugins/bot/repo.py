@@ -90,7 +90,7 @@ async def repo(_, message):
             list_of_users += f"{count}. [{user['login']}]({user['html_url']})\n"
             count += 1
 
-        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/Danishzain05/ChatgptMusic) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/SpartanWorld_05)
+        text = f"""[𝖱𝖤𝖯𝖮 𝖫𝖨𝖭𝖪](https://github.com/Danishzain05/ChatgptMusic/blob/Master/DAXXMUSIC/plugins/bot/repo.py) | [𝖦𝖱𝖮𝖴𝖯](https://t.me/SpartanWorld_05)
 | 𝖢𝖮𝖭𝖳𝖱𝖨𝖡𝖴𝖳𝖮𝖱𝖲 |
 ----------------
 {list_of_users}"""
