@@ -21,7 +21,7 @@ start_txt = """**
 
 
 
-@app.on_message(filters.command("Repo"))
+@app.on_message(filters.command("Jaan"))
 async def start(_, msg):
     buttons = [
         [ 
@@ -76,11 +76,11 @@ InlineKeyboardButton("MISS-XD", url=f"https://t.me/Vickmachine05_Bot"),
 # --------------
 
 
-@app.on_message(filters.command("Repo", prefixes="#"))
+@app.on_message(filters.command("Jaan", prefixes="#"))
 @capture_err
 async def repo(_, message):
     async with httpx.AsyncClient() as client:
-        response = await client.get("https://github.com/Danishzain05/ChatgptMusic")
+        response = await client.get("https://github.com/Danishzain05/ChatgptMusic/contributors")
     
     if response.status_code == 200:
         users = response.json()
