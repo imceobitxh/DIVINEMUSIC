@@ -13,20 +13,16 @@ start_txt = """**
  
  ➲ But Sab Op Hai ✰
  
- ➲ 24x7 Active rhta ha  ✰
+ ➲ 24x7 Active rhta ha ✰
  
- ► ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ sᴇɴᴅ ss
-**"""
+ ► ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ sᴇɴᴅ ss**"""
 
 
 
 
-@app.on_message(filters.command("Jaan"))
-async def start(_, msg):
-    buttons = [
-        [ 
-          InlineKeyboardButton("ADD ME", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
-        ],
+@app.on_message(filters.command("repo"))
+async def start(_,msg):
+    buttons =
         [
           InlineKeyboardButton("SPARTAN", url="https://t.me/XdLover_05"),
           InlineKeyboardButton("LUCKY", url="https://t.me/@Ihate0000000000"),
@@ -76,7 +72,7 @@ InlineKeyboardButton("MISS-XD", url=f"https://t.me/Vickmachine05_Bot"),
 # --------------
 
 
-@app.on_message(filters.command("Jaan", prefixes="#"))
+@app.on_message(filters.command("repo", prefixes="#"))
 @capture_err
 async def repo(_, message):
     async with httpx.AsyncClient() as client:
