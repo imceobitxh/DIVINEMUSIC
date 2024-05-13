@@ -7,9 +7,25 @@ import httpx
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 start_txt = """**
-✪ ωεℓ¢σмє ƒσя Spartan Bot ✪
+✪ ωεℓ¢σмє ƒσя Spratan яєρσѕ ✪
  
- @app.on_message(filters.command("repo"))
+ ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
+ 
+ ➲ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪssᴜᴇ ✰
+ 
+ ➲ ɴᴏ ɪᴅ ʙᴀɴ ɪssᴜᴇ ✰
+ 
+ ➲ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏs ✰
+ 
+ ➲ ʀᴜɴ 24x7 ʟᴀɢ ғʀᴇᴇ ᴡɪᴛʜᴏᴜᴛ sᴛᴏᴘ ✰
+ 
+ ► ɪғ ʏᴏᴜ ғᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ᴛʜᴇɴ sᴇɴᴅ ss
+**"""
+
+
+
+
+@app.on_message(filters.command("repo"))
 async def start(_, msg):
     buttons = [
         [ 
@@ -18,39 +34,7 @@ async def start(_, msg):
         [
           InlineKeyboardButton("𝗛𝗘𝗟𝗣", url="https://t.me/StatusWorld_05"),
           InlineKeyboardButton("𝗢𝗪𝗡𝗘𝗥", url="https://t.me/XdLover_05"),
-          ],
-               [
-                InlineKeyboardButton("LUCKY", url="https://t.me/Ihate0000000000"),
-
-],
-[
-              InlineKeyboardButton("MAYRA", url=f"https://t.me/ll_Fida_Op_ll"),
-              InlineKeyboardButton("︎FIDA", url=f"https://t.me/unfairwrlxd"),
-              ],
-              [
-              InlineKeyboardButton("AHL-E-ISHQ", url=f"https://t.me/StatusWorld_05"),
-InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/Vickmachine05_Bot"),
-],
-[
-InlineKeyboardButton("SHARIF", url=f"https://t.me/StatusWorld_05"),
-InlineKeyboardButton("JORDAN", url=f"https://t.me/Syed0002"),
-],
-[
-              InlineKeyboardButton("HINATA", url=f"https://t.me/pretty_vaishu_xd"),
-              InlineKeyboardButton("ZIYA", url=f"https://t.me/Bhatakti_aatma05"),
-              ],
-              [
-              InlineKeyboardButton("MISUKI", url=f"https://t.me/StatusWorld_05"),
-InlineKeyboardButton("AAYU", url=f"https://t.me/ll_aayu_01l"),
-],
-[
-InlineKeyboardButton("MUSIC BOT", url=f"https://t.me/XdMusic_Bot"),
-InlineKeyboardButton("CHATGPT", url=f"https://t.me/MayraMusic_Bot"),
-],
-[
-InlineKeyboardButton("MISSJHA", url=f"https://t.me/Eye_killer12"),
-
-        ]]
+          ] ]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
@@ -68,7 +52,7 @@ InlineKeyboardButton("MISSJHA", url=f"https://t.me/Eye_killer12"),
 @capture_err
 async def repo(_, message):
     async with httpx.AsyncClient() as client:
-        response = await client.get("https://github.com/Danishzain05/ChatgptMusic")
+        response = await client.get("https://api.github.com/repos/DAXXTEAM/DAXXMUSIC/contributors")
     
     if response.status_code == 200:
         users = response.json()
