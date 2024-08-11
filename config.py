@@ -12,15 +12,15 @@ load_dotenv()
 API_ID = int(getenv("API_ID","20175549"))
 API_HASH = getenv("API_HASH","ac63d3b8b1002ead3a81e0e8f9057322")
 # ------------------------------------------------------
-BOT_TOKEN = getenv("BOT_TOKEN","6935105642:AAHKljp05hsSFEIlose7K6y5bOdrwgS9g54")
+BOT_TOKEN = getenv("BOT_TOKEN","7079997815:AAHQ1wWcKILhROdeVLMuEn12ZqCE4FIWS9k")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","Imceobitxh")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Pandey_Shaurya")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "AlishaMusix_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "DivineMusix_Bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "Alisha")
+BOT_NAME = getenv("BOT_NAME" , "DIVINE")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "Alisha")
+ASSUSERNAME = getenv("ASSUSERNAME" , "DIVINE")
 # ---------------------------------------------------------
 
 
@@ -67,8 +67,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/aiimsbsc01")
-SUPPORT_CHAT = getenv("OWNER", "https://t.me/Imceobitxh")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/jaskrnsings")
+SUPPORT_CHAT = getenv("OWNER", "https://t.me/Pandey_Shaurya")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -141,10 +141,10 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/3f3a1d405aa51b6f34cbd.jpg"
+    "START_IMG_URL", "https://graph.org/file/e3b45a0dcd554d1ca9043.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/26275a44083eea4fd097e.jpg"
+    "PING_IMG_URL", "https://graph.org/file/e3b45a0dcd554d1ca9043.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 STATS_IMG_URL = "https://telegra.ph/file/3f3a1d405aa51b6f34cbd.jpg"
